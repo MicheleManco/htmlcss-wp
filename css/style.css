@@ -23,9 +23,6 @@ body {
 /*header*/
 header{ 
     margin:30px 0px;
-    /*debug*/
-    /* background-color: pink; */
-    /* height: 80px; */
 }
 
 .logo{
@@ -39,16 +36,16 @@ header{
     padding-right: 20px;
 }
 
-.menù{
+.menu{
     display: inline-block;
     margin-right: 15px; 
 }
 
-.menù :hover{
+.menu :hover{
     cursor: pointer;
 }
 
-.sottomenù{
+.sottomenu{
     text-decoration: none;
     color: lightgray;
 }
@@ -85,17 +82,11 @@ header{
 
 .s-head {
     margin-bottom: 20px;
-    /*debug*/
-    /* background-color: turquoise;
-    height: 60px; */
 }
 
 .widgets {
     width: 23%;
     float: left;
-    /*debug*/
-    /* background-color: turquoise; */
-    /* height: 600px; */
 }
 
 .imgwidgets{
@@ -124,9 +115,6 @@ header{
     width: 50%;
     float: left;
     margin: 0 2%;
-    /*debug*/
-    /* background-color: turquoise;
-    height: 600px; */
 }
 
  .midimg{
@@ -143,9 +131,6 @@ header{
 footer {
     margin: 30px 0px;
     text-align: center;
-    /*debug*/
-    /* height: 60px;
-    background-color: purple; */
 }
 
 #cuore{
