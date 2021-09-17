@@ -59,6 +59,7 @@ header{
     background-size: 81%; 
     background-position: center center;
     border-radius: 15px;
+    background-repeat: repeat-x;
 }
 
 .mask{
@@ -136,6 +137,8 @@ header{
     background-image: url(../img/banner-2.jpg);
     background-position: center center;
 }
+
+/*footer*/
 
 footer {
     margin: 30px 0px;
