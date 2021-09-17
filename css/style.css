@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-size: ;
+    font-family: ; */
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*header*/
+header{ 
+    margin:30px 0px;
+    /*debug*/
+    background-color: pink;
+    height: 80px;
+}
+
+/* jumbotron */
+.banner {
+    /*debug*/
+    height: 300px;
+    background-color: yellow;
+}
+
+
+/*main*/
+.article {
+    margin-top: 30px;
+    /*debug*/
+    background-color: teal;
+}
+
+.s-head {
+    margin-bottom: 20px;
+    /*debug*/
+    background-color: turquoise;
+    height: 60px;
+}
+
+.widgets {
+    width: 23%;
+    float: left;
+    /*debug*/
+    background-color: turquoise;
+    height: 600px;
+}
+
+.s-mid {
+    width: 50%;
+    float: left;
+    margin: 0 2%;
+    /*debug*/
+    background-color: turquoise;
+    height: 600px;
+}
+
+footer {
+    margin: 15px 0px;
+    /*debug*/
+    height: 60px;
+    background-color: purple;
+}
